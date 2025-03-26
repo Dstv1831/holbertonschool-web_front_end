@@ -650,7 +650,7 @@ ul.row {
   left: var(--header-logo-link-left);
 }
 
-nav .nav-link::before {
+nav .nav-a::before {
   content: empty;
   position: absolute;
   top: 0;
