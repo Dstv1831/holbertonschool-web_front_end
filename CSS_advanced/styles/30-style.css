@@ -694,13 +694,21 @@ nav .nav-item:hover .nav-link::before {
 }
 
 .card-work .card-title {
-  align-items: center;
+  text-align: center;
   margin: 0;
   opacity: 0;
   height: 100%;
   position: relative;
 }
 
-.card-work a, .card-title a {
-    
+.card-work a, .card-title a {  
+  display: block;
+  text-decoration: none;
+  padding-top: 45%;  
+}
+
+.card-title a::after, .card-work a::after {
+  position: absolute;
+  inset: 0;
+  content: "";
 }
