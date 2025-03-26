@@ -707,7 +707,7 @@ nav .nav-item:hover .nav-link::before {
   padding-top: 45%;  
 }
 
-.card-title .card-work a::after {
+.card-work .card-title a::after {
   position: absolute;
   inset: 0;
   content: "";
