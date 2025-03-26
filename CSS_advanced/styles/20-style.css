@@ -535,8 +535,8 @@ ul.row {
   text-align: right;
 }
 
-.row{
-  grid-row: auto;
+.row ::after{
+  /* grid-row: auto; */
   content: none;
   display: table;
   float: none;
