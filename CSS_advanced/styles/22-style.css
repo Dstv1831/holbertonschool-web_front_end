@@ -354,7 +354,6 @@
     }
 
 :root {
-  background-color: var(--color-black);
   --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --color-primary: #d73953;
@@ -362,7 +361,7 @@
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
-  --text-color: var(--color-white);
+  --text-color: var(--color-black);
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
@@ -376,7 +375,7 @@
   --section-header-align: center;
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
-  --section-title-color: var(--color-white);
+  --section-title-color: var(--color-black);
   --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
@@ -391,6 +390,12 @@
   --nav-item-margin: 0 0 300% 0;
   --nav-item-link-hover: var(--color-primary);
   --section-tagline-margin: 0;
+}
+
+html[data-section-theme='dark']{
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 html{
