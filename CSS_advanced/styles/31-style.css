@@ -404,9 +404,7 @@
   --header-logo-link-display: inline-block;
   --header-logo-link-position: absolute;
   --header-logo-link-top: -1rem;
-  --header-logo-link-left: 0; 
-  --transition-duration: .3s;
-  --transition-cubic-bezier: 
+  --header-logo-link-left: 0;  
 }
 
 [data-section-theme='dark']{
