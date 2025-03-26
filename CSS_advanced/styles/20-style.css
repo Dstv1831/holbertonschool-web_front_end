@@ -535,7 +535,7 @@ ul.row {
   text-align: right;
 }
 
-.row ::after{
+.row::after{
   grid-row: auto;
   content: none;
   display: table;
