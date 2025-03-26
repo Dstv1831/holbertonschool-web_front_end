@@ -649,8 +649,8 @@ ul.row {
   top: var(--header-logo-link-top);
   left: var(--header-logo-link-left);
 }
-.nav-link::before {
-  content: empty;
+nav .nav-link::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
