@@ -403,7 +403,7 @@
   --header-logo-position: relative;
   --header-logo-link-display: inline-block;
   --header-logo-link-position: absolute;
-  --header-logo-link-top: 1rem;
+  --header-logo-link-top: -1rem;
   --header-logo-link-left: 0; 
 }
 
@@ -645,5 +645,5 @@ ul.row {
 
 .header-logo link {
   display: var(--header-logo-link-display);
-  position: var(--header-logo-link-position), var(--header-logo-link-top);
+  position: var(--header-logo-link-position);
 }
