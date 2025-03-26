@@ -721,7 +721,7 @@ nav .nav-item:hover .nav-link::before {
 }
 
 .card-testimonial .card-quote {
-  position: inherit;
+  position: relative;
 }
 
 .card-testimonial .card-quote::before {
