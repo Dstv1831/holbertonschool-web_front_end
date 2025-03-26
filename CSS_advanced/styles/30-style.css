@@ -696,7 +696,7 @@ nav .nav-item:hover .nav-link::before {
 .card-work .card-title {
   text-align: center;
   margin: 0;
-  opacity: 0;
+  opacity: 1;
   height: 100%;
   position: relative;
 }
@@ -714,4 +714,8 @@ nav .nav-item:hover .nav-link::before {
   left: 0;
   right: 0;
   content: "";
+}
+
+.card-work:hover .card-title {
+  opacity: 1;
 }
