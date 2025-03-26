@@ -405,6 +405,8 @@
   --header-logo-link-position: absolute;
   --header-logo-link-top: -1rem;
   --header-logo-link-left: 0; 
+  --transition-duration: .3s;
+  --transition-cubic-bezier: 
 }
 
 [data-section-theme='dark']{
@@ -725,7 +727,7 @@ nav .nav-item:hover .nav-link::before {
 }
 
 .card-testimonial .card-quote::before {
-  content: \201C;
+  content: "\201C";
   position: absolute;
   top: -4.5rem;
   left: -1rem;
